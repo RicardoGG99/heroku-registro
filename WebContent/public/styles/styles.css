@@ -1,0 +1,36 @@
+.form form{
+    max-width: 400px;
+    margin: 0 auto;
+    }
+    .form input,
+    .form textarea{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    }
+    .form label{
+    display: block;
+    margin-top: 24px;
+    }
+    .form button{
+    margin-top: 20px;
+    background: crimson;
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    }
+    
+    body{
+        background-color: cyan;
+    }
+
+    h1{
+    text-align: center;
+    }
+
+    h3{
+        text-align: center;
+        }
