@@ -1,0 +1,35 @@
+.registro form{
+    max-width: 400px;
+    margin: 0 auto;
+    }
+    .registro input,
+    .registro textarea{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    }
+    .registro label{
+    display: block;
+    margin-top: 24px;
+    }
+    textarea{
+    height: 120px;
+    }
+    .registro button{
+    margin-top: 20px;
+    background: crimson;
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    }
+    
+    body{
+        background-color: cyan;
+    }
+
+    h1{
+    text-align: center;
+    }
