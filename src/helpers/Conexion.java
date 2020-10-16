@@ -11,9 +11,10 @@ import java.sql.SQLException;
 
 public class Conexion {
 	//Attributes
-	private static String DBurl = "jdbc:postgresql://localhost:5432/postgres";
-	private static String DBuser = "postgres";
-	private static String DBpassword = "masterkey";
+	private static String DBurl = "jdbc:postgresql://ec2-50-16-221-180.compute-1.amazonaws.com\r\n" + 
+			":5432/dfc6f6qc9b8loj";
+	private static String DBuser = "spddzptnewmwch";
+	private static String DBpassword = "006214d7c716e2f6d5176b62d485ee3f2f19d09b74f4b52e96795b2e06c28d02";
 	private static String DBdriver = "org.postgresql.Driver";
 	private static Connection conn = null;
 	
