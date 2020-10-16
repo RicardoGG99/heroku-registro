@@ -1,22 +1,19 @@
-.registro form{
+.form form{
     max-width: 400px;
     margin: 0 auto;
     }
-    .registro input,
-    .registro textarea{
+    .form input,
+    .form textarea{
     display: block;
     width: 100%;
     margin: 10px 0;
     padding: 8px;
     }
-    .registro label{
+    .form label{
     display: block;
     margin-top: 24px;
     }
-    textarea{
-    height: 120px;
-    }
-    .registro button{
+    .form button{
     margin-top: 20px;
     background: crimson;
     color: white;
@@ -33,3 +30,7 @@
     h1{
     text-align: center;
     }
+
+    h3{
+        text-align: center;
+        }
